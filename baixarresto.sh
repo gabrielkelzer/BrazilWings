@@ -6,7 +6,7 @@ pkg install pip
 pip install --upgrade pip
 pip install lolcat
 pkg install espeak
-git clone
-git clone
-git clone
-git clone
+git clone https://github.com/gabrielkelzer/HeleWings
+git clone https://github.com/gabrielkelzer/Tentame_Kelzer
+git clone https://github.com/gabrielkelzer/KelzerScan
+git clone https://github.com/gabrielkelzer/KelzerStar
