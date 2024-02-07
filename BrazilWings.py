@@ -98,7 +98,7 @@ l 卐                ┌∩┐(◣_◢)┌∩┐                卐 l
 
 ''')      
      MENU_BW = input('\033[33mDIGITE UM NÚMERO: \033[0m')
-     print('\n\033[1mA IDEIA DO CRIADOR DO SOFTWARE ERA CRIAR UM LAZYMUX BRASILEIRO\033[m')
+     print('\n\033[3;36mA ideia do criador do script era criar um Lazymux Brasileiro\033[m')
      sleep()
      clear()
 
