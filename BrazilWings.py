@@ -96,7 +96,7 @@ l\033[0m\033[1;31m 卐           ─▄────▄▄▄▄▄▄▄──�
 \033[1;36ml\033[0m\033[1;31m 卐                ┌∩┐(◣_◢)┌∩┐                卐 \033[0m\033[1;36ml\033[0m
 \033[1;36m---------------------------------------------------\033[0m ''')      
      MENU_BW = input('\033[35mDIGITE UM NÚMERO: \033[0m')
-     print('\n\033[90mA ideia do criador do script era criar um Lazymux Brasileiro\033[m')
+     print('\n\033[90mA ideia do criador do script era criar um Lazymux Brasileiro\033[0m')
      sleep()
      clear()
 
