@@ -13,8 +13,8 @@ link_manual = lambda: os.system('termux-open-url https://zonamestre.blogspot.com
 iniciar_kelzerscan = lambda: os.system('cd;cd KelzerScan;python KelzerScan.py;cd;cd BrazilWings')
 iniciar_kelzerstar = lambda: os.system('cd;cd KelzerStar;python KelzerStar.py;cd;cd BrazilWings')
 
-
-
+MENU_CONFG = 0
+MENU_BW = 0
 
 while MENU_CONFG != 1:
      clear()
