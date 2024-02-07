@@ -11,7 +11,7 @@ sleep = lambda: os.system('sleep 2')
 umarquivoemshell = lambda: os.system('. ./baixarresto.sh')
 link_manual = lambda: os.system('termux-open-url https://zonamestre.blogspot.com/2024/02/software-para-hacking-e-pentest-do.html')
 iniciar_kelzerscan = lambda: os.system('cd;cd KelzerScan;python KelzerScan.py;cd;cd BrazilWings')
-iniciar_kelzerstar = lambda: os.system('cd;cd KelzerStar;python KelzerStar.py;cd;cd BrazilWings')
+iniciar_kelzerstar = lambda: os.system('cd;cd KelzerStar;python kelzerstar.py;cd;cd BrazilWings')
 
 MENU_CONFG = 0
 MENU_BW = 0
