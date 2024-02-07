@@ -97,66 +97,66 @@ l 卐                ┌∩┐(◣_◢)┌∩┐                卐 l
 ---------------------------------------------------
 
 ''')      
-     MENU_BW = int(input('\033[33mDIGITE UM NÚMERO: \n \033[0m'))
-     print('\033[1;36mA IDEIA DO CRIADOR DO SOFTWARE ERA CRIAR UM LAZYMUX BRASILEIRO\033[m')
+     MENU_BW = input('\033[33mDIGITE UM NÚMERO: \033[0m')
+     print('\n\033[1mA IDEIA DO CRIADOR DO SOFTWARE ERA CRIAR UM LAZYMUX BRASILEIRO\033[m')
      sleep()
      clear()
 
 
      match MENU_BW:  
-          case 1:
+          case "1":
                iniciar_kelzerscan()
-          case 2:
+          case "2":
                iniciar_kelzerstar()
-          case 3:
+          case "3":
                iniciar_helewings()
-          case 4:
+          case "4":
                iniciar_TentameKelzer()
-          case 5:
+          case "5":
                iniciar_SYSTEMNERF()
-          case 6:
+          case "6":
                copiar_app_virusapk()
                copiar_app_smsbomber()
                clear()
                print ('''\033[31mPRONTO, AGORA VERIFIQUE A SUA PASTA DE DOWNLOADS.\033[0m:
                       ''')
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
-          case 7:
-               print('\033[1m - NEGRITO\033[m \ 0 3 3 [ 1 m')
-               print('\033[3m - ITÁLICO\033[m \ 0 3 3 [ 3 m')
-               print('\033[4m - SUBLINHADO\033[m \ 0 3 3 [ 4 m')
-               print('\033[7m - COR INVERTIDA\033[m \ 0 3 3 [ 7 m')
-               print('\033[9m - TACHADO\033[m \ 0 3 3 [ 9 m')
-               print('\033[21m - SUBLINHADO\033[m \ 0 3 3 [ 2 1 m')
-               print('\033[30m - TEXTO PRETO\033[m \ 0 3 3 [ 3 0 ')
-               print('\033[31m - TEXTO VERMELHO\033[m \ 0 3 3 [ 3 1 m')
-               print('\033[32m - TEXTO VERDE\033[m \ 0 3 3 [ 3 2 m')
-               print('\033[33m - TEXTO AMARELO\033[m \ 0 3 3 [ 3 3 m')
-               print('\033[34m - TEXTO AZUL\033[m \ 0 3 3 [ 3 4 m')
-               print('\033[35m - TEXTO MAGENTA\033[m \ 0 3 3 [ 3 5 m')
-               print('\033[36m - TEXTO CIANO\033[m \ 0 3 3 [ 3 6 m')
-               print('\033[37m - TEXTO CINZA\033[m \ 0 3 3 [ 3 7 m')
-               print('\033[40m - FUNDO PRETO\033[m \ 0 3 3 [ 4 0 m')
-               print('\033[41m - FUNDO VERMELHO\033[m \ 0 3 3 [ 4 1 m')
-               print('\033[42m - FUNDO VERDE\033[m \ 0 3 3 [ 4 2 m')
-               print('\033[43m - FUNDO AMARELO\033[m \ 0 3 3 [ 4 3 m')
-               print('\033[44m - FUNDO AZUL\033[m \ 0 3 3 [ 4 4 m')
-               print('\033[45m - FUNDO MAGENTA\033[m \ 0 3 3 [ 4 5 m')
-               print('\033[46m - FUNDO CIANO\033[m \ 0 3 3 [ 4 6 m')
-               print('\033[47m - FUNDO CINZA\033[m \ 0 3 3 [ 4 7 m')
-               print('\033[51m - TEXTO COM BORDA\033[m \ 0 3 3 [ 5 1 m')
-               print('\033[52m - TEXTO COM BORDA\033[m \ 0 3 3 [ 5 2 m')
-               print('\033[90m - TEXTO AZUL ESCURO\033[m \ 0 3 3 [ 9 0 m')
-               print('\033[100m - FUNDO AZUL CLARO\033[m \ 0 3 3 [ 1 0 0 m')
+          case "7":
+               print('\033[1mNEGRITO\033[m     \ 0 3 3 [ 1 m')
+               print('\033[3mITÁLICO\033[m     \ 0 3 3 [ 3 m')
+               print('\033[4mSUBLINHADO\033[m     \ 0 3 3 [ 4 m')
+               print('\033[7mCOR INVERTIDA\033[m     \ 0 3 3 [ 7 m')
+               print('\033[9mTACHADO\033[m     \ 0 3 3 [ 9 m')
+               print('\033[21mSUBLINHADO\033[m     \ 0 3 3 [ 2 1 m')
+               print('\033[30mTEXTO PRETO\033[m     \ 0 3 3 [ 3 0 ')
+               print('\033[31mTEXTO VERMELHO\033[m     \ 0 3 3 [ 3 1 m')
+               print('\033[32mTEXTO VERDE\033[m     \ 0 3 3 [ 3 2 m')
+               print('\033[33mTEXTO AMARELO\033[m     \ 0 3 3 [ 3 3 m')
+               print('\033[34mTEXTO AZUL\033[m     \ 0 3 3 [ 3 4 m')
+               print('\033[35mTEXTO MAGENTA\033[m     \ 0 3 3 [ 3 5 m')
+               print('\033[36mTEXTO CIANO\033[m     \ 0 3 3 [ 3 6 m')
+               print('\033[37mTEXTO CINZA\033[m     \ 0 3 3 [ 3 7 m')
+               print('\033[40mFUNDO PRETO\033[m     \ 0 3 3 [ 4 0 m')
+               print('\033[41mFUNDO VERMELHO\033[m     \ 0 3 3 [ 4 1 m')
+               print('\033[42mFUNDO VERDE\033[m     \ 0 3 3 [ 4 2 m')
+               print('\033[43mFUNDO AMARELO\033[m     \ 0 3 3 [ 4 3 m')
+               print('\033[44mFUNDO AZUL\033[m     \ 0 3 3 [ 4 4 m')
+               print('\033[45mFUNDO MAGENTA\033[m     \ 0 3 3 [ 4 5 m')
+               print('\033[46mFUNDO CIANO\033[m     \ 0 3 3 [ 4 6 m')
+               print('\033[47mFUNDO CINZA\033[m     \ 0 3 3 [ 4 7 m')
+               print('\033[51mTEXTO COM BORDA\033[m     \ 0 3 3 [ 5 1 m')
+               print('\033[52mTEXTO COM BORDA\033[m     \ 0 3 3 [ 5 2 m')
+               print('\033[90mTEXTO AZUL ESCURO\033[m     \ 0 3 3 [ 9 0 m')
+               print('\033[100mFUNDO AZUL CLARO\033[m     \ 0 3 3 [ 1 0 0 m')
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
-          case 8:
+          case "8":
                print ('''\033[34m
 Este código tem licença GPL, isso quer dizer que os usuários podem modificar o script e trocar o nome do criador. Porém, eles precisam dizer em alguma parte do programa a seguinte frase "Este Software foi baseado no código-fonte do script BrazilWings.
                     \033[0m  ''')
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
-          case 9:
+          case "9":
                abrir_site_livro()
-          case 10:
+          case "10":
                print ('''
 \033[1;32mDESENVOLVEDOR:\033[0m
      \033[1;34mGabriel Kelzer.\033[0m
