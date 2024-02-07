@@ -33,14 +33,14 @@ while MENU_CONFG != "1":
 
 
      # condicional encadeado
-     if MENU_CONFG == 1:
+     if MENU_CONFG == "1":
           print('\033[31mOK\033[0m')
           sleep()
           print ('\033[31mINICIANDO...\033[0m')
           sleep()
-     elif MENU_CONFG == 2:
+     elif MENU_CONFG == "2":
           umarquivoemshell()
-     elif MENU_CONFG == 3:
+     elif MENU_CONFG == "3":
           link_manual()
      else:
           print('\033[31mVOCÊ DIGITOU UM NÚMERO DIFERENTE ! ;-; \033[0m')
