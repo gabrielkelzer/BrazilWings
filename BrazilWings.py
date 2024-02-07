@@ -16,7 +16,7 @@ iniciar_kelzerstar = lambda: os.system('cd;cd KelzerStar;python KelzerStar.py;cd
 MENU_CONFG = 0
 MENU_BW = 0
 
-while MENU_CONFG != 1:
+while MENU_CONFG != "1":
      clear()
      print ('''
           \033[36m--------------------\033[0m
@@ -48,7 +48,7 @@ while MENU_CONFG != 1:
 
 
 
-while MENU_BW != 10:
+while MENU_BW != "10":
      clear()
      print ('''
 l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=l
