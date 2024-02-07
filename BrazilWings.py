@@ -18,7 +18,7 @@ MENU_BW = 0
 
 while MENU_CONFG != "1":
      clear()
-     print ('''
+     print('''
           \033[36m--------------------\033[0m
          \033[33m SEJA BEM-VINDO(A) :D\033[0m
         \033[36m  --------------------\033[0m
@@ -36,7 +36,7 @@ while MENU_CONFG != "1":
      if MENU_CONFG == "1":
           print('\033[31mOK\033[0m')
           sleep()
-          print ('\033[31mINICIANDO...\033[0m')
+          print('\033[31mINICIANDO...\033[0m')
           sleep()
      elif MENU_CONFG == "2":
           umarquivoemshell()
@@ -50,7 +50,7 @@ while MENU_CONFG != "1":
 
 while MENU_BW != "10":
      clear()
-     print ('''
+     print('''
 \033[1;36ml=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=l\033[0m
 \033[1;36ml\033[0m\033[1;33m                  LICENÇA GPL \033[0m       \033[1;36m            l\033[0m\033[1;36m
 l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=l
@@ -155,7 +155,7 @@ Este código tem licença GPL, isso quer dizer que os usuários podem modificar 
           case "9":
                abrir_site_livro()
           case "10":
-               print ('''
+               print('''
 \033[1;32mDESENVOLVEDOR:\033[0m
      \033[1;34mGabriel Kelzer.\033[0m
 \033[1;32mINSTAGRAM:\033[0m
