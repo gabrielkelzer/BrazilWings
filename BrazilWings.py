@@ -22,8 +22,8 @@ while MENU_CONFG != "1":
           \033[36m--------------------\033[0m
          \033[33m SEJA BEM-VINDO(A) :D\033[0m
         \033[36m  --------------------\033[0m
-        \033[31m  MENU DE CONFIGURAÇÕES INICIAIS:\033[0m
-        \033[34m  1 - INICIAR
+        \033[1m  MENU DE CONFIGURAÇÕES INICIAIS:\033[0m
+        \033[32m  1 - INICIAR
           2 - BAIXAR O RESTANTE DO SCRIPT
           3 - MANUAL COMPLETO \033[0m
 ''')
