@@ -97,8 +97,8 @@ l 卐                ┌∩┐(◣_◢)┌∩┐                卐 l
 ---------------------------------------------------
 
 ''')      
-     MENU_BW = int(input('\033[33mDIGITE UM NÚMERO:\033[0m'))
-     print('\033[1;34mSABIA QUE A COMUNIDADE KELZER COMUNITY CHAMA O BRAZIL WINGS DE LAZYMUX BRASILEIRO ?\033[m')
+     MENU_BW = int(input('\033[33mDIGITE UM NÚMERO: \n \033[0m'))
+     print('\033[1;36mA IDEIA DO CRIADOR DO SOFTWARE ERA CRIAR UM LAZYMUX BRASILEIRO\033[m')
      sleep()
      clear()
 
