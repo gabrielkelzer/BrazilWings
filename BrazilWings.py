@@ -166,7 +166,7 @@ Este código tem licença GPL, isso quer dizer que os usuários podem modificar 
      \033[1;34mKelzer Comunity\033[0m\033[1;32m
 GRUPO DO TELEGRAM:\033[0m\033[1;34m
      HTTPS://T.ME/KELZERCOMUNITY\033[0m
-\033[03;32m"As vezes criatividade é continuar criando coisas mesmo não sendo reconhecido", Gabriel Kelzer.\033[0m
+\033[03;32m"Às vezes criatividade é continuar criando coisas mesmo não sendo reconhecido", Gabriel Kelzer.\033[0m
 ''')
           case _:
                print ('''\033[31mO número que você digitou é inválido !!!\033[0m
