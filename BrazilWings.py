@@ -48,7 +48,7 @@ while MENU_CONFG != "1":
 
 
 
-while MENU_BW != "10":
+while MENU_BW != "10" or MENU_BW != "2":
      clear()
      print('''
 \033[1;36ml=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=l\033[0m
