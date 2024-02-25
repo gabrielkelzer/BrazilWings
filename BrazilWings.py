@@ -1,6 +1,9 @@
 import os
-clear = lambda: os.system('clear')
-#maioria dos softwares estão na pasta principal, ou seja.... algumas funções do menu estão neste arquivo
+clear = lambda: os.system('clear') #clear serve pra limpar a tela
+
+
+#Aqui eu coloco as funções
+
 iniciar_helewings = lambda: os.system('cd;cd HeleWings;. ./HeleWings.sh;cd;cd BrazilWings')
 iniciar_TentameKelzer = lambda: os.system('cd;cd Tentame_Kelzer;. ./TentameKelzer.sh;cd;cd BrazilWings')
 iniciar_SYSTEMNERF = lambda: os.system('cd;cd SYSTEM_NERF;. ./systemnerf.sh;cd;cd BrazilWing')
@@ -11,11 +14,34 @@ sleep = lambda: os.system('sleep 2')
 umarquivoemshell = lambda: os.system('. ./baixarresto.sh')
 link_manual = lambda: os.system('termux-open-url https://zonamestre.blogspot.com/2024/02/software-para-hacking-e-pentest-do.html')
 iniciar_kelzerscan = lambda: os.system('cd;cd KelzerScan;python KelzerScan.py;cd;cd BrazilWings')
+slepizao = lambda: os.system('sleep 3') # Sleep serve pra pausar a tela pro usuário por algum tempo
+
+#Aqui eu termino as funções
 
 
+
+
+
+
+
+
+
+#Logo abaixo tem algumas váriaveis para ajudar o programa a funcionar
 MENU_CONFG = 0
 MENU_BW = 0
 
+
+
+
+
+
+
+
+
+
+
+
+#Eu resolvir por um menu antes do menu principal, isso porque é as opções do menu principal são pré-instalados
 while MENU_CONFG != "1":
      clear()
      print('''
@@ -32,12 +58,12 @@ while MENU_CONFG != "1":
 
 
 
-     # condicional encadeado
+
+     
+     # condicional encadeado do menu de configurações iniciais
      if MENU_CONFG == "1":
-          print('\033[31mOK\033[0m')
-          sleep()
-          print('\033[31mINICIANDO...\033[0m')
-          sleep()
+          print('''\033[1;33mVOCÊ SABIA ? \033[0m\033[90mA ideia do criador do script era criar um Lazymux Brasileiro\033[0m''')
+          slepizao()
      elif MENU_CONFG == "2":
           umarquivoemshell()
      elif MENU_CONFG == "3":
@@ -45,6 +71,17 @@ while MENU_CONFG != "1":
      else:
           print('\033[31mVOCÊ DIGITOU UM NÚMERO DIFERENTE ! ;-; \033[0m')
           sleep()
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -98,8 +135,6 @@ l\033[0m\033[1;31m 卐                                           卐 \033[0m\033
 \033[1;36ml\033[0m\033[1;31m 卐                ┌∩┐(◣_◢)┌∩┐                卐 \033[0m\033[1;36ml\033[0m
 \033[1;36m---------------------------------------------------\033[0m ''')      
      MENU_BW = input('\033[35mDIGITE UM NÚMERO: \033[0m')
-     print('\n\033[90mA ideia do criador do script era criar um Lazymux Brasileiro\033[0m')
-     sleep()
      clear()
 
 
