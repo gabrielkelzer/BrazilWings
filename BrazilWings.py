@@ -157,8 +157,9 @@ while MENU_CONFG != "1":
 
 
 
-menu_da_brazil_wings()
+
 while MENU_BW != "10":
+     menu_da_brazil_wings()
      clear()
     
      MENU_BW = input('\033[35mDIGITE UM NÚMERO: \033[0m')
@@ -281,7 +282,7 @@ Este código tem licença GPL, isso quer dizer que os usuários podem modificar 
 \033[1;32mDESENVOLVEDOR:\033[0m
      \033[1;34mGabriel Kelzer.\033[0m
 \033[1;32mINSTAGRAM:\033[0m
-     \033[1;34m@bielkelzer.\033[0m
+     \033[1;34m@gabrielkelzerofc.\033[0m
 \033[1;32mCOMUNIDADE ADMINISTRADORA DA SCRIPT:\033[0m
      \033[1;34mKelzer Comunity\033[0m\033[1;32m
 GRUPO DO TELEGRAM:\033[0m\033[1;34m
