@@ -29,5 +29,3 @@ TAMBÉM VALE RESSALTAR QUE, O SCRIPT TÁ TODO AUTOMATIZADO, OU SEJA. APÓS O USU
 
 COMANDOS:
 git clone https://github.com/gabrielkelzer/BrazilWings
-cd BrazilWings 
-python BrazilWings.py
