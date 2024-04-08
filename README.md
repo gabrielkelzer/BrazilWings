@@ -1,4 +1,4 @@
-![Screenshot_20240329_213357_Termux](https://github.com/gabrielkelzer/BrazilWings/assets/64110393/46e4f816-b364-4aa0-9bb8-b9cb6c39b3b9)
+![Screenshot_20240407_223918_Termux](https://github.com/gabrielkelzer/BrazilWings/assets/64110393/3a38ad27-72ba-4627-b546-3e80c2c410ea)
 
 
 EM 2024 FOI LANÇADO O ASAS DO BRASIL, A IDEIA INICIAL DO PROJETO ERA CRIAR UM LAZYMUX BR, O LAZYMUX É UM SCRIPT DESENVOLVIDO EM PYTHON PARA HACKING E PENTEST.
@@ -27,5 +27,6 @@ O ÚNICO PROBLEMA QUE OS USUÁRIOS DEVEM TOMAR CUIDADO É QUE ELES NÃO PODEM IN
 
 TAMBÉM VALE RESSALTAR QUE, O SCRIPT TÁ TODO AUTOMATIZADO, OU SEJA. APÓS O USUÁRIO INSTALAR O SCRIPT VAI DAR UM MENU DE CONFIGURAÇÕES INICIAIS. PORTANTO BASTA DIGITAR "python brazilwings.py" E SER FELIZ :D
 
-COMANDOS:
-git clone https://github.com/gabrielkelzer/BrazilWings
+Link 1:
+https://github.com/gabrielkelzer/BrazilWings
+Obs: Baixe o Termux no site https://f-droid.org/pt_BR/
