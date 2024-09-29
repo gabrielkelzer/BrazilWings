@@ -1,4 +1,5 @@
-<img src="https://ibb.co/gm38bYs">
+
+![Post instagram frase motivacional moderno minimalista preto e cinza _20240929_172407_0000](https://github.com/user-attachments/assets/532cac40-1cf5-45ab-be2b-5201c21feb80)
 
 
 EM 2024 FOI LANÇADO O ASAS DO BRASIL, A IDEIA INICIAL DO PROJETO ERA CRIAR UM LAZYMUX BR, O LAZYMUX É UM SCRIPT DESENVOLVIDO EM PYTHON PARA HACKING E PENTEST.
