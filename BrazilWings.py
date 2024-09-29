@@ -148,7 +148,7 @@ while MENU_CONFG != "1":
 
 
 
-while MENU_BW != "10":
+while MENU_BW != "11":
      clear()
      menu_da_brazil_wings()    
      MENU_BW = input('''\033[35mDIGITE UM NÚMERO: \033[0m''')
@@ -255,6 +255,18 @@ Este código tem licença GPL, isso quer dizer que os usuários podem modificar 
           case "9":
                abrir_site_livro()
           case "10":
+               print('''
+\033[1;32mDESENVOLVEDOR:\033[0m
+     \033[1;34mGabriel Kelzer.\033[0m
+\033[1;32mINSTAGRAM PARA FICAR POR DENTRO DO SCRIPT:\033[0m
+     \033[1;34mhttps://www.instagram.com/gabrielkelzerofc\033[0m
+\033[1;32mYOYTUBE PARA APRENDER DO DESENVOLVEDOR:\033[0m
+     \033[1;34mhttps://youtube.com/@gabrielkelzer\033[0m\033[1;32m
+GRUPO DO WHATSAPP:\033[0m\033[1;34m
+     https://chat.whatsapp.com/FPP8FpeyvrnFP81zXTIP5W\033[0m
+\033[03;32m"Às vezes criatividade é continuar criando coisas mesmo não sendo reconhecido", Gabriel Kelzer.\033[0m
+''')
+          case "11":
                print('''
 \033[1;32mDESENVOLVEDOR:\033[0m
      \033[1;34mGabriel Kelzer.\033[0m
