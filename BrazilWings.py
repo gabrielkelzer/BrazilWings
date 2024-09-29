@@ -126,7 +126,7 @@ while MENU_CONFG != "1":
      
      # condicional encadeado do menu de configurações iniciais
      if MENU_CONFG == "1":
-          print('''\033[1;33mVOCÊ SABIA ? \033[0m\033[90mA ideia do criador do script era criar um Lazymux Brasileiro\033[0m''')
+          print('''\033[1;33mVOCÊ SABIA ? \033[0m\033[90mCansado de programar de graça o dono do Script resolveu criar essa versão\033[0m''')
           slepizao()
      elif MENU_CONFG == "2":
           umarquivoemshell()
