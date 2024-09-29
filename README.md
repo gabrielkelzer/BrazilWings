@@ -24,3 +24,5 @@ TAMBÉM VALE RESSALTAR QUE, O SCRIPT TÁ TODO AUTOMATIZADO, OU SEJA. APÓS O USU
 Link 1:
 https://github.com/gabrielkelzer/BrazilWings
 Obs: Baixe o Termux no site https://f-droid.org/pt_BR/
+
+COMANDOS INICIAIS: apt update,apt upgrade,termux-setup-storage,pkg install python3,y,cd BrazilWings,chmod +x*,python3 brazilwings.py
