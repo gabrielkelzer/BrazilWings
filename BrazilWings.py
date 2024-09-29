@@ -123,11 +123,8 @@ while MENU_CONFG != "1":
         \033[1m  MENU DE CONFIGURAÇÕES INICIAIS:\033[0m
         \033[32m  1 - INICIAR
           2 - BAIXAR O RESTANTE DO SCRIPT
-          3 - MANUAL COMPLETO \033[0m
-''')
-     MENU_CONFG = input('''\033[33mCREATED BY: GABRIEL KELZER
-     ME SIGA NO INSTA: @GABRIELKELZEROFC
-     DIGITE UM NÚMERO:\033[0m''')
+          3 - MANUAL COMPLETO \033[0m''')
+     MENU_CONFG = input('     \033[33mDIGITE UM NÚMERO:\033[0m')
      clear()
 
 
@@ -162,7 +159,9 @@ while MENU_CONFG != "1":
 while MENU_BW != "10":
      clear()
      menu_da_brazil_wings()    
-     MENU_BW = input('\033[35mDIGITE UM NÚMERO: \033[0m')
+     MENU_BW = input('''\033[35mCREATED BY: GABRIEL KELZER
+ME SIGA NO INSTA: @GABRIELKELZEROFC
+DIGITE UM NÚMERO: \033[0m''')
      clear()
 
 
