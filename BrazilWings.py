@@ -153,8 +153,7 @@ while MENU_CONFG != "1":
 while MENU_BW != "10":
      clear()
      menu_da_brazil_wings()    
-     MENU_BW = input('''\033[35mINSTA: @GABRIELKELZEROFC
-DIGITE UM NÚMERO: \033[0m''')
+     MENU_BW = input('''\033[35mDIGITE UM NÚMERO: \033[0m''')
      clear()
 
 
