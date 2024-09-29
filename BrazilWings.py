@@ -50,7 +50,7 @@ l\033[0m\033[1;31m ♱                                             ♱ \033[0m\0
 \033[1;36ml\033[0m         \033[1;31ml\033[0m   \033[1;36m  Pelo DDD             \033[0m   \033[1;31ml\033[0m       \033[1;36m  l\033[0m
 \033[1;36ml\033[0m         \033[1;31ml\033[0m                             \033[1;31ml\033[0m        \033[1;36m l\033[0m
 \033[1;36ml\033[0m         \033[1;31ml\033[0m \033[1;36m[\033[0m3\033[1;36m] Enviar aúdio falso no \033[0m  \033[1;31ml\033[0m       \033[1;36m  l\033[0m
-\033[1;36ml\033[0m         \033[1;31ml\033[0m   \033[1;36m  Whatsapp            \033[0m    \033[1;31ml\033[0m       \033[1;36m  l\033[0m
+\033[1;36ml\033[0m         \033[1;31ml\033[0m   \033[1;36m  Whatsapp (OFF)      \033[0m    \033[1;31ml\033[0m       \033[1;36m  l\033[0m
 \033[1;36ml\033[0m         \033[1;31ml\033[0m                             \033[1;31ml\033[0m       \033[1;36m  l\033[0m
 \033[1;36ml\033[0m         \033[1;31ml\033[0m \033[1;36m[\033[0m4\033[1;36m] Sistema antitravas Zap \033[0m \033[1;31ml\033[0m       \033[1;36m  l\033[0m
 \033[1;36ml\033[0m         \033[1;31ml\033[0m    \033[1;36m (ROOT)        \033[0m          \033[1;31ml\033[0m       \033[1;36m  l\033[0m
@@ -125,7 +125,7 @@ while MENU_CONFG != "1":
      
      # condicional encadeado do menu de configurações iniciais
      if MENU_CONFG == "1":
-          print('''\033[1;33mVOCÊ SABIA ? \033[0m\033[90mCansado de programar de graça o dono do Script resolveu criar essa versão\033[0m''')
+          print('''\033[1;33mVOCÊ SABIA ? \033[0m\033[90mO desenvolvedor do Software tem um curso no YouTube chamado "Hacker de Bolso".\033[0m''')
           slepizao()
      elif MENU_CONFG == "2":
           umarquivoemshell()
