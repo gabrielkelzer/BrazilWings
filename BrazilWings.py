@@ -42,7 +42,6 @@ l\033[0m\033[1;31m ♱                                             ♱ \033[0m\0
 \033[1;36ml\033[0m⠀⠀⠀⠀⠀⠀             ⢹⣿⠿⣿⡿⢿⣿⠿⣿⡇⠀   ⠀⠀⠀     ⠀     ⠀⠀\033[1;36ml\033[0m⠀⠀⠀
 \033[1;36ml\033[0m⠀⠀⠀               ⠀⠸⡇⢀⣿⡇⢸⣿⡀⢸⠇⠀       ⠀⠀         ⠀\033[1;36ml\033[0m⠀⠀⠀⠀⠀⠀
 \033[1;36ml\033[0m⠀⠀⠀⠀⠀⠀            ⠀⠀⠀⠈⠉⠁⠈⠉⠁⠀⠀⠀⠀                  \033[1;36ml\033[0m⠀⠀⠀⠀⠀⠀⠀⠀
-\033[1;36ml\033[0m                                                \033[1;36m l\033[0m
 \033[1;36ml\033[0m              \033[1;31m   BrazilWings Vip     \033[0m           \033[1;36m l\033[0m
 \033[1;36ml\033[0m      \033[1;31m   /-----------------------------\   \033[0m     \033[1;36m l\033[0m
 \033[1;36ml\033[0m         \033[1;31ml\033[0m \033[1;36m[\033[0m1\033[1;36m] PortScan           \033[0m     \033[1;31ml\033[0m         \033[1;36ml\033[0m
@@ -259,9 +258,9 @@ Este código tem licença GPL, isso quer dizer que os usuários podem modificar 
                print('''
 \033[1;32mDESENVOLVEDOR:\033[0m
      \033[1;34mGabriel Kelzer.\033[0m
-\033[1;32mINSTAGRAM:\033[0m
+\033[1;32mINSTAGRAM PARA FICAR POR DENTRO DO SCRIPT:\033[0m
      \033[1;34mhttps://www.instagram.com/gabrielkelzerofc\033[0m
-\033[1;32mYOUTUBE:\033[0m
+\033[1;32mYOYTUBE PARA APRENDER DO DESENVOLVEDOR:\033[0m
      \033[1;34mhttps://youtube.com/@gabrielkelzer\033[0m\033[1;32m
 GRUPO DO WHATSAPP:\033[0m\033[1;34m
      https://chat.whatsapp.com/FPP8FpeyvrnFP81zXTIP5W\033[0m
