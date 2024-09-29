@@ -40,7 +40,7 @@ slepizao = lambda: os.system('sleep 3') # Sleep serve pra pausar a tela pro usu�
 def menu_da_brazil_wings(): # essa função é do menu
      print ('''
 \033[1;36ml=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=l\033[0m
-\033[1;36ml\033[0m\033[1;33m 🜲                 LICENÇA GPL                 🜲 \033[0m\033[1;36ml\033[0m\033[1;36m
+\033[1;36ml\033[0m\033[1;33m 🜲                 SOFTWARE EM MODO TEXTO                 🜲 \033[0m\033[1;36ml\033[0m\033[1;36m
 l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=l             
 l\033[0m\033[1;31m ✟                                             ✟ \033[0m\033[1;36ml\033[0m
 \033[1;36ml\033[0m                                                \033[1;36m l\033[0m
