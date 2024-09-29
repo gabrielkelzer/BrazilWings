@@ -125,7 +125,9 @@ while MENU_CONFG != "1":
           2 - BAIXAR O RESTANTE DO SCRIPT
           3 - MANUAL COMPLETO \033[0m
 ''')
-     MENU_CONFG = input('\033[33mDIGITE UM NÚMERO:\033[0m')
+     MENU_CONFG = input('''\033[33mCREATED BY: GABRIEL KELZER
+     ME SIGA NO INSTA: @GABRIELKELZEROFC
+     DIGITE UM NÚMERO:\033[0m''')
      clear()
 
 
