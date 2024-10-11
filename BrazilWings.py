@@ -283,7 +283,7 @@ apt update,apt upgrade,termux-setup-storage,pkg install python3,y,cd BrazilWings
      \033[1;34mGabriel Kelzer.\033[0m
 \033[1;32mINSTAGRAM PARA FICAR POR DENTRO DO SCRIPT:\033[0m
      \033[1;34mhttps://www.instagram.com/gabrielkelzerofc\033[0m
-\033[1;32mYOYTUBE PARA APRENDER DO DESENVOLVEDOR:\033[0m
+\033[1;32mYOYTUBE DO DONO DO SOFTWARE:\033[0m
      \033[1;34mhttps://youtube.com/@gabrielkelzer\033[0m\033[1;32m
 GRUPO DO WHATSAPP:\033[0m\033[1;34m
      https://chat.whatsapp.com/FPP8FpeyvrnFP81zXTIP5W\033[0m
