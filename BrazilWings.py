@@ -12,6 +12,7 @@ copiar_app_smsbomber = lambda: os.system('cp -i Smsbomber.apk /data/data/com.ter
 abrir_site_livro = lambda: os.system('termux-open-url https://www.dropbox.com/scl/fi/9hz49y04l7mhoo1q20k2a/MEULIVRO_COM_CAPA_NOVA.pdf?rlkey=cyho1p4ft00lotncv7xei32zw&dl=0')
 sleep = lambda: os.system('sleep 2')
 umarquivoemshell = lambda: os.system('. ./baixarresto.sh')
+verificarbugs = lambda: os.system('. ./verificarbugs.sh')
 link_manual = lambda: os.system('termux-open-url https://zonamestre.blogspot.com/2024/02/software-para-hacking-e-pentest-do.html')
 iniciar_kelzerscan = lambda: os.system('cd;cd KelzerScan;python KelzerScan.py;cd;cd BrazilWings')
 slepizao = lambda: os.system('sleep 3') # Sleep serve pra pausar a tela pro usuário por algum tempo
@@ -104,7 +105,7 @@ MENU_BW = 0
 
 
 
-
+verificarbugs()
 #Eu resolvir por um menu antes do menu principal, isso porque é as opções do menu principal são pré-instalados
 while MENU_CONFG != "1":
      clear()
