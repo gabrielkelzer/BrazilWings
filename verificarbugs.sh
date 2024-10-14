@@ -1,9 +1,9 @@
 #!/bin/bash
 clear
-echo -e "VERIFICANDO SE É POSSÍVEL EXECUTAR O SOFTWARE NO SEU CELULAR..."
+echo -e "\033[1;31mVERIFICANDO SE É POSSÍVEL EXECUTAR O SOFTWARE NO SEU CELULAR... \033[0m"
 sleep 3
 clear
-echo -e "VERIFICANDO O PROTOCOLO 7 !"
+echo -e "\033[1;33mVERIFICANDO O PROTOCOLO 7 ! \033[0m"
 sleep 3
 clear
 cd
