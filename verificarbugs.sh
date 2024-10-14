@@ -3,7 +3,7 @@ clear
 echo -e "VERIFICANDO SE É POSSÍVEL EXECUTAR O SOFTWARE NO SEU CELULAR..."
 sleep 3
 clear
-echo -e "VERIFICANDO O PROTOCOLO 7..."
+echo -e "VERIFICANDO O PROTOCOLO 7 !"
 sleep 3
 clear
 cd
