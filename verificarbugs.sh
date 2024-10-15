@@ -1,10 +1,10 @@
 #!/bin/bash
 clear
 echo -e "\033[1;31mVERIFICANDO SE É POSSÍVEL EXECUTAR O SOFTWARE NO SEU CELULAR... \033[0m"
-sleep 2
+sleep 4
 clear
 echo -e "\033[1;33mVERIFICANDO O PROTOCOLO 7 ! \033[0m"
-sleep 1
+sleep 3
 clear
 cd
 rm -rf BUGS2024
