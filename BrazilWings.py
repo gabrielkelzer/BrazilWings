@@ -278,6 +278,7 @@ PLATAFORMA: Termux
 COMANDOS INICIAIS:
 apt update,apt upgrade,termux-setup-storage,pkg install python3,y,cd BrazilWings,chmod +x*,python3 brazilwings.py\033[0m
 ''')
+               OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
           case "11":
                print('''
 \033[1;32mDESENVOLVEDOR:\033[0m
