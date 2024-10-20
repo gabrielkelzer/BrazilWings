@@ -259,24 +259,42 @@ Este código tem licença GPL, isso quer dizer que os usuários podem modificar 
                print('''
 \033[1;32mHISTÓRIA DO SCRIPT:\033[0m\033[1;31m
 
-NO FINAL DE 2023 FOI LANÇADO O ASAS DO BRASIL V1, A IDEIA INICIAL DO PROJETO ERA CRIAR UMA ESPÉCIE DE LAZYMUX BRASILEIRO, O LAZYMUX É UM SCRIPT DE PENTEST QUE FOI DESENVOLVIDO POR OUTRO PAÍS. 
+O projeto BrazilWings é um Software de cibersegurança Privado do Gabriel Kelzer. Cujo ano de lançamento foi em 2023. 
 
-O LAZYMUX FOI CRIADO PRA RODAR NO TERMUX, MAS NÃO TEMOS UM SCRIPT ASSIM COM OS MESMOS OBJETIVOS.
+Por possuir todas as ferramentas de cibersegurança criadas por ele... então este Software acabou se tornando uma das melhores opções de Pentest no Android.
 
-ENTÃO EU RESOLVI TRABALHAR NA CRIAÇÃO DE UM, QUE FOI MUITO UTILZADA EM 2023, PORÉM AGORA EU CRIEI UMA NOVA VERSÃO EM  SETEMBRO DE 2024. NESTA NOVA ATUALIZAÇÃO TEM UM MENU DIFERENTE DO QUE OS USUÁRIOS ESTÃO ACOSTUMADOS.
+VERSÃO V1 VIP FREE :
 
-O BRAZIL WINGS V1 VIP FREE CONTINUA RODANDO SOMENTE NO TERMUX (PORÉM ALGUMAS COISAS FUNCIONAM NO KALI).
+Infelizmente o Software continua rodando somente no Termux.
 
-O ÚNICO PROBLEMA QUE OS USUÁRIOS DEVEM TOMAR CUIDADO É QUE ELES NÃO PODEM INSTALAR O APK "VIRUS.APK" POIS ELE FORMATA TUDO DO CELULAR DA PESSOA QUE INSTALAR.
+O único problema que os usuários devem tomar cuidado é que eles não podem instalar o APK "VIRUS.APK" pois ele Formata o celular da pessoa que instalar.
 
-TAMBÉM VALE RESSALTAR QUE, O SCRIPT TÁ TODO AUTOMATIZADO, OU SEJA. APÓS O USUÁRIO INSTALAR O SCRIPT VAI DAR UM MENU DE CONFIGURAÇÕES INICIAIS. PORTANTO BASTA DIGITAR "python brazilwings.py" E SER FELIZ :D
+Também vale destacar que o script tá todo automatizado, Ou seja. Após o usuário instalar o Script vai dar um menu de configuração iniciais. Portanto basta digitar "python brazilwings.py" E SER FELIZ :D
 
-DOWNLOAD: https://github.com/gabrielkelzer/BrazilWings 
+FUNÇÕES DA FERRAMENTA:
 
-PLATAFORMA: Termux
+• Menu de instalações;
+• Abrir/mostra sites úteis caso queira invadir sites;
+• Enviar áudio falso no WhatsApp;
+• Subir/bugar as travas do WhatsApp;
+• PortScan avançado(criado pelo próprio criador da BrazilWing);
+• Personalizar o Termux;
+• Obter Apk que formatar o celular da pessoa;
+• Sms bomber;
+• Te ajuda a programar te dando uma lista de cores em código;
+• Personaliza o Termux;
+• Te ensina o básico de hacking e Pentest(tutoriais e etc..)
+• Te ensina a programar introduzindo á lógica de programação;
+• Lista estados pelo número de Telefone;
+• Ele possui um livro Hacker criado pelo próprio Desenvolvedor do Software;
 
-COMANDOS INICIAIS:
-apt update,apt upgrade,termux-setup-storage,pkg install python3,y,cd BrazilWings,chmod +x*,python3 brazilwings.py\033[0m
+COMANDOS:
+
+Este texto pode se tornar obsolento com o tempo, portanto acesse:
+
+Zonamestre.blogspot.com 
+
+Ass: Gabriel Kelzer\033[0m
 ''')
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
           case "11":
