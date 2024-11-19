@@ -298,6 +298,7 @@ Ass: Gabriel Kelzer\033[0m
 ''')
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
           case "11":
+               #https://t.me/+Yty_nJKo7U0xYjIx
                print('''
 \033[1;32mDESENVOLVEDOR:\033[0m
      \033[1;34mGabriel Kelzer.\033[0m
