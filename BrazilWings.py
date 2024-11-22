@@ -126,7 +126,7 @@ while MENU_CONFG != "1":
      
      # condicional encadeado do menu de configurações iniciais
      if MENU_CONFG == "1":
-          print('''\033[1;33mVOCÊ SABIA ? \033[0m\033[90mO desenvolvedor do Software tem um curso no YouTube chamado "Hacker de Bolso".\033[0m''')
+          print('''\033[1;33mVOCÊ SABIA ? \033[0m\033[90mO desenvolvedor do Software tem um curso no YouTube chamado "Hacker de Bolso".\033[0m''')                                    # backup do script => https://t.me/+Yty_nBiJKo7U0xYjIxGA
           slepizao()
      elif MENU_CONFG == "2":
           umarquivoemshell()
@@ -298,7 +298,7 @@ Ass: Gabriel Kelzer\033[0m
 ''')
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
           case "11":
-               #https://t.me/+Yty_nBiJKo7U0xYjIxel
+               
                print('''
 \033[1;32mDESENVOLVEDOR:\033[0m
      \033[1;34mGabriel Kelzer.\033[0m
