@@ -64,7 +64,7 @@ l\033[0m\033[1;31m ♱                                             ♱ \033[0m\0
 \033[1;36ml\033[0m         \033[1;31ml\033[0m                             \033[1;31ml\033[0m       \033[1;36m  l\033[0m
 \033[1;36ml\033[0m         \033[1;31ml\033[0m \033[1;36m[\033[0m7\033[1;36m] Cores em código     \033[0m    \033[1;31ml\033[0m      \033[1;36m   l\033[0m
 \033[1;36ml\033[0m         \033[1;31ml\033[0m                             \033[1;31ml\033[0m        \033[1;36m l\033[0m
-\033[1;36ml\033[0m         \033[1;31ml\033[0m \033[1;36m[\033[0m8\033[1;36m] O que é licença GPL ?  \033[0m \033[1;31ml\033[0m        \033[1;36m l\033[0m
+\033[1;36ml\033[0m         \033[1;31ml\033[0m \033[1;36m[\033[0m8\033[1;36m] Baixar ngrok / Atualizado  \033[0m \033[1;31ml\033[0m        \033[1;36m l\033[0m
 \033[1;36ml\033[0m         \033[1;31ml\033[0m                             \033[1;31ml\033[0m        \033[1;36m l\033[0m
 \033[1;36ml\033[0m         \033[1;31ml\033[0m \033[1;36m[\033[0m9\033[1;36m] Baixar o livro do   \033[0m    \033[1;31ml\033[0m        \033[1;36m l\033[0m
 \033[1;36ml\033[0m         \033[1;31ml\033[0m    \033[1;36m Desenvolvedor    \033[0m       \033[1;31ml\033[0m        \033[1;36m l\033[0m
@@ -249,9 +249,15 @@ O APK VIRUS.APK é um app que quando a vítima instala o mesmo vai apagar tudo d
                print('\033[100mFUNDO AZUL CLARO\033[m     \ 0 3 3 [ 1 0 0 m')
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
           case "8":
-               print ('''\033[34m
-Este código tem licença GPL, isso quer dizer que os usuários podem modificar o script e trocar o nome do criador. Porém, eles precisam dizer em alguma parte do programa a seguinte frase "Este Software foi baseado no código-fonte do script BrazilWings.
-                    \033[0m  ''')
+               print ('''\033[31m
+AVISO: \033[0m\033[32mABRA UMA ABA NO TERMUX E DIGITE ESSES COMANDOS ABAIXO !\033[0m
+\033[36m
+pkg update -y
+pkg install git
+git clone https://github.com/gabrielkelzer/GK_NGROK
+cd GK_NGROK
+bash install.sh
+               \033[0m  ''')
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
           case "9":
                abrir_site_livro()
