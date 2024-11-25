@@ -16,4 +16,8 @@ cd KELZERX
 chmod +x *
 bash install.sh
 cd
+git clone https://github.com/gabrielkelzer/GK_NGROK
+cd GK_NGROK
+chmod +x *
+cd
 cd BrazilWings
