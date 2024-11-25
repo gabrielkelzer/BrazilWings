@@ -263,7 +263,9 @@ bash install.sh
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
           case "9":
                abrir_site_livro()
-          case "10":
+          case "10"
+               abrir_site_livro()
+          case "11":
                print('''
 \033[1;32mHISTÓRIA DO SCRIPT:\033[0m\033[1;31m
 
@@ -305,7 +307,7 @@ Zonamestre.blogspot.com
 Ass: Gabriel Kelzer\033[0m
 ''')
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
-          case "11":
+          case "12":
                
                print('''
 \033[1;32mDESENVOLVEDOR:\033[0m
