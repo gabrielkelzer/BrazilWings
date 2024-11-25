@@ -11,4 +11,9 @@ git clone https://github.com/gabrielkelzer/HeleWings
 git clone https://github.com/gabrielkelzer/Tentame_Kelzer
 git clone https://github.com/gabrielkelzer/KelzerScan
 git clone https://github.com/gabrielkelzer/SYSTEM_NERF
+git clone https://github.com/gabrielkelzer/KELZERX
+cd KELZERX
+chmod +x *
+bash install.sh
+cd
 cd BrazilWings
