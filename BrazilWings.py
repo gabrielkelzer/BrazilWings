@@ -251,14 +251,20 @@ O APK VIRUS.APK é um app que quando a vítima instala o mesmo vai apagar tudo d
                print('\033[100mFUNDO AZUL CLARO\033[m     \ 0 3 3 [ 1 0 0 m')
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
           case "8":
-               print ('''\033[31m
-AVISO: \033[0m\033[32mABRA UMA ABA NO TERMUX E DIGITE ESSES COMANDOS ABAIXO !\033[0m
-\033[36m
-pkg update -y
-pkg install git
-git clone https://github.com/gabrielkelzer/GK_NGROK
+               print ('''
+\033[1;31mAVISO:\033[0m\033[1;32m ABRA UMA ABA NO TERMUX E DIGITE ESSES COMANDOS ABAIXO !\033[0m\033[1;36m
+
+cd
 cd GK_NGROK
-bash install.sh
+bash install.sh \033[0m
+
+\033[1;31mOBS: \033[0m\033[1;32mApós esses comandos você tem que por seu token com o comando ./ngrok +token \033[0m
+\033[1;31mOBS2: \033[0m\033[1;32mEm seguida é necessário você colocar o protocolo de internet e a porta (exemplo: ./ngrok http 8080)
+\033[1;31mOBS3: \033[0m\033[1;32m E por fim, abra mais uma porta digite: \033[0m
+\033[1;36m
+cd
+cd BrazilWings
+# E volte a aba do brazilwings !!!
                \033[0m  ''')
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
           case "9":
