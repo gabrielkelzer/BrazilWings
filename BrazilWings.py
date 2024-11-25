@@ -3,7 +3,7 @@ clear = lambda: os.system('clear') #clear serve pra limpar a tela
 
 
 #Aqui eu coloco as funções
-
+iniciar_kelzerx = lambda: os.system('cd;cd KELZERX;bash sploit.sh;cd;cd BrazilWings')
 iniciar_helewings = lambda: os.system('cd;cd HeleWings;. ./HeleWings.sh;cd;cd BrazilWings')
 iniciar_TentameKelzer = lambda: os.system('cd;cd Tentame_Kelzer;. ./TentameKelzer.sh;cd;cd BrazilWings')
 iniciar_SYSTEMNERF = lambda: os.system('cd;cd SYSTEM_NERF;. ./systemnerf.sh;cd;cd BrazilWing')
@@ -264,7 +264,7 @@ bash install.sh
           case "9":
                abrir_site_livro()
           case "10"
-               abrir_site_livro()
+               iniciar_kelzerx()
           case "11":
                print('''
 \033[1;32mHISTÓRIA DO SCRIPT:\033[0m\033[1;31m
