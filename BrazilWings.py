@@ -151,7 +151,7 @@ while MENU_CONFG != "1":
 
 
 
-while MENU_BW != "11":
+while MENU_BW != "12":
      clear()
      menu_da_brazil_wings()    
      MENU_BW = input('''\033[35mDIGITE UM NÚMERO: \033[0m''')
