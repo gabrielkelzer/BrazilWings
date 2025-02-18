@@ -260,11 +260,9 @@ bash install.sh \033[0m
 
 \033[1;31mOBS: \033[0m\033[1;32mApós esses comandos você tem que por seu token com o comando ./ngrok +token \033[0m
 \033[1;31mOBS2: \033[0m\033[1;32mEm seguida é necessário você colocar o protocolo de internet e a porta (exemplo: ./ngrok http 8080)
-\033[1;31mOBS3: \033[0m\033[1;32m E por fim, abra mais uma porta digite: \033[0m
+\033[1;31mOBS3: \033[0m\033[1;32m E por fim, caso queria usar a opção de criar backdoor aperte enter (nesta aba): \033[0m
 \033[1;36m
-cd
-cd BrazilWings
-# E volte a aba do brazilwings !!!
+# E depois do enter escolha a opção 10 da brazilwings !!!
                \033[0m  ''')
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
           case "9":
