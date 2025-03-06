@@ -1,5 +1,5 @@
+![1000027318](https://github.com/user-attachments/assets/196f346f-f323-49f8-bcaf-6c6cd48acdb2)
 
-![Post instagram frase motivacional moderno minimalista preto e cinza _20240929_172407_0000](https://github.com/user-attachments/assets/532cac40-1cf5-45ab-be2b-5201c21feb80)
 
 O projeto BrazilWings é um Software de cibersegurança Privado do Gabriel Kelzer. Cujo ano de lançamento foi em 2023.  
 
