@@ -321,7 +321,7 @@ Ass: Gabriel Kelzer\033[0m
 \033[1;32mYOYTUBE DO DONO DO SOFTWARE:\033[0m
      \033[1;34mhttps://youtube.com/@gabrielkelzer\033[0m\033[1;32m
 GRUPO DO WHATSAPP:\033[0m\033[1;34m
-     https://chat.whatsapp.com/FPP8FpeyvrnFP81zXTIP5W\033[0m
+     - NÃO TEMOS - \033[0m
 \033[03;32m"Às vezes criatividade é continuar criando coisas mesmo não sendo reconhecido", Gabriel Kelzer.\033[0m
 ''')
           case _:
