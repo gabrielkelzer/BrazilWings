@@ -21,6 +21,6 @@ COMANDOS:
 
 Estes comandos podem se tornar obsolento com o tempo, portanto acesse:
 
-Zonamestre.blogspot.com 
+https://zonamestre.blogspot.com 
 
 Ass: Desenvolvedor do Software.
