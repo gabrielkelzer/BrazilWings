@@ -15,10 +15,9 @@ Também vale destacar que o script tá todo automatizado, Ou seja. Após o usuá
 
 COMANDOS:
 
-* termux-setup-storage
-* pkg install git
-* pkg install python
-* git clone https://github.com/gabrielkelzer/brazilwings
+* instalem o "git" no termux
+* instalem o "python" no termux
+* baixem pelo link: https://github.com/gabrielkelzer/brazilwings
 
 Estes comandos podem se tornar obsolento com o tempo, portanto acesse:
 
