@@ -15,7 +15,12 @@ Também vale destacar que o script tá todo automatizado, Ou seja. Após o usuá
 
 COMANDOS:
 
-Este texto pode se tornar obsolento com o tempo, portanto acesse:
+termux-setup-storage
+pkg install git
+pkg install python
+git clone https://github.com/gabrielkelzer/brazilwings
+
+Estes comandos podem se tornar obsolento com o tempo, portanto acesse:
 
 Zonamestre.blogspot.com 
 
