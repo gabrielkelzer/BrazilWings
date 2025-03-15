@@ -112,14 +112,14 @@ verificarbugs()
 while MENU_CONFG != "1":
      clear()
      print('''
-          \033[36m--------------------\033[0m
-         \033[33m SEJA BEM-VINDO(A) :D\033[0m
-        \033[36m  --------------------\033[0m
+          \033[1;36m--------------------\033[0m
+         \033[1;33m SEJA BEM-VINDO(A) :D\033[0m
+        \033[1;36m  --------------------\033[0m
         \033[1m  MENU DE CONFIGURAÇÕES INICIAIS:\033[0m
-        \033[32m  1 - INICIAR
+        \033[1;32m  1 - INICIAR
           2 - BAIXAR O RESTANTE DO SCRIPT
           3 - APRENDER A UTILIZAR A FERRAMENTA \033[0m''')
-     MENU_CONFG = input('     \033[33mDIGITE UM NÚMERO:\033[0m')
+     MENU_CONFG = input('     \033[1;33mDIGITE UM NÚMERO:\033[0m')
      clear()
 
 
