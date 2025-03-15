@@ -298,9 +298,6 @@ Ass: \033[0m\033[1;34mGabriel Kelzer\033[0m
      \033[1;34mhttps://www.instagram.com/ytgabrielkelzer\033[0m
 \033[1;32mYOUTUBE DO DONO DO SOFTWARE:\033[0m
      \033[1;34mhttps://youtube.com/@gabrielkelzer\033[0m
-     
-     
-     
      ''')
           case _:
                print ('''\033[31mO número que você digitou é inválido !!!\033[0m 
