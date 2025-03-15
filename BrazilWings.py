@@ -206,7 +206,7 @@ while MENU_BW != "12":
           case "4":
                iniciar_SYSTEMNERF()
           case "5":
-               print ('''\033[34m
+               print ('''\033[1;34m
 O APK VIRUS.APK é um app que quando a vítima instala o mesmo vai apagar tudo do celular dela, e o app sms bomber seve pra enviar vários sms pra pessoa.
                     \033[0m  ''')
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA OBTER OS APKS:\033[0m')
@@ -271,7 +271,8 @@ bash install.sh \033[0m
                iniciar_kelzerx()
           case "11":
                print('''
-\033[1;32mHISTÓRIA DO SCRIPT:\033[0m\033[1;31m
+\033[1;36mHISTÓRIA DO SCRIPT:\033[0m\033[1;34m
+
 O projeto BrazilWings é um Software de cibersegurança Privado do Gabriel Kelzer. Cujo ano de lançamento foi em 2023.  
 
 Em 2025 ele tornou o Software público para download, porém com o pedido de usarem o software para o bem (caso contrário o Software será excluído para sempre da internet).
