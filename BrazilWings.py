@@ -216,7 +216,7 @@ O APK VIRUS.APK é um app que quando a vítima instala o mesmo vai apagar tudo d
 
                
                clear()
-               print ('''\033[31mPRONTO, AGORA VERIFIQUE A SUA PASTA DE DOWNLOADS.\033[0m:
+               print ('''\033[1;31mPRONTO, AGORA VERIFIQUE A SUA PASTA DE DOWNLOADS.\033[0m:
                       ''')
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
           case "6":
@@ -284,8 +284,8 @@ Infelizmente o Software continua rodando somente no Termux.
 O único problema que os usuários devem tomar cuidado é que eles não podem instalar o APK "VIRUS.APK" pois ele Formata o celular da pessoa que instalar.
 
 Também vale destacar que o script tá todo automatizado, Ou seja. Após o usuário instalar o Script vai dar um menu de configuração iniciais. Portanto basta digitar "python brazilwings.py" E SER FELIZ :D 
-
-Ass: Gabriel Kelzer\033[0m
+\033[0m\033[1;31m
+Ass: \033[0m\033[1;34mGabriel Kelzer\033[0m
 ''')
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
           case "12":
