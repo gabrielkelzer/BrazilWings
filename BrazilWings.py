@@ -274,7 +274,7 @@ bash install.sh \033[0m
 \033[1;32mHISTÓRIA DO SCRIPT:\033[0m\033[1;31m
 O projeto BrazilWings é um Software de cibersegurança Privado do Gabriel Kelzer. Cujo ano de lançamento foi em 2023.  
 
-Em 2025 ele tornou o Software pública para download, porém com o pedido de usarem o software para o bem (caso contrário o Software será excluído para sempre da internet).
+Em 2025 ele tornou o Software público para download, porém com o pedido de usarem o software para o bem (caso contrário o Software será excluído para sempre da internet).
 
 Por possuir todas as ferramentas de cibersegurança criadas por ele... então este Software acabou se tornando uma das melhores opções de Pentest no Android.
 
