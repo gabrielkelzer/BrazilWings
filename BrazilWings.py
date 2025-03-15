@@ -296,6 +296,7 @@ Ass: Gabriel Kelzer\033[0m
      \033[1;34mhttps://www.instagram.com/ytgabrielkelzer\033[0m
 \033[1;32mYOUTUBE DO DONO DO SOFTWARE:\033[0m
      \033[1;34mhttps://youtube.com/@gabrielkelzer\033[0m
+
 \033[03;32m"Às vezes criatividade é continuar criando coisas mesmo não sendo reconhecido", Gabriel Kelzer.\033[0m
 ''')
           case _:
