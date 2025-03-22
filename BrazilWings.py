@@ -77,7 +77,7 @@ l\033[0m\033[1;31m ♱                                             ♱ \033[0m\0
 \033[1;36ml\033[0m         \033[1;31ml\033[0m                             \033[1;31ml\033[0m       \033[1;36m  l\033[0m
 \033[1;36ml\033[0m       \033[1;31m  \-----------------------------/  \033[0m      \033[1;36m l\033[0m
 \033[1;36ml\033[0m      \033[1;33m    FERRAMENTA DE CIBERSEGURANÇA \033[0m         \033[1;36m l\033[0m
-\033[1;36ml\033[0m\033[1;31m ♱ \033[0m     \033[1;35m        @ytgabrielkelzer   \033[0m  \033[1;31m          ♱ \033[0m\033[1;36ml\033[0m
+\033[1;36ml\033[0m\033[1;31m ♱ \033[0m     \033[1;35m      @tiktok_bielkelzer   \033[0m  \033[1;31m          ♱ \033[0m\033[1;36ml\033[0m
 \033[1;36m---------------------------------------------------\033[0m      
      ''') 
      
@@ -135,7 +135,7 @@ while MENU_CONFG != "1":
      elif MENU_CONFG == "3":
           link_manual()
      else:
-          print('\033[31mVOCÊ DIGITOU UM NÚMERO DIFERENTE ! ;-; \033[0m')
+          print('\033[1;31mVOCÊ DIGITOU UM NÚMERO DIFERENTE ! ;-; \033[0m')
           sleep()
 
 
@@ -154,7 +154,7 @@ while MENU_CONFG != "1":
 while MENU_BW != "12":
      clear()
      menu_da_brazil_wings()    
-     MENU_BW = input('''\033[35mDIGITE UM NÚMERO: \033[0m''')
+     MENU_BW = input('''\033[1;35mDIGITE UM NÚMERO: \033[0m''')
      clear()
 
 
