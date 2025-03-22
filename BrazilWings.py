@@ -293,9 +293,9 @@ Ass: \033[0m\033[1;34mGabriel Kelzer\033[0m
                print('''
 \033[1;32mDESENVOLVEDOR:\033[0m
      \033[1;34mGabriel Kelzer.\033[0m
-\033[1;32mINSTAGRAM PARA FICAR POR DENTRO DO SCRIPT:\033[0m
-     \033[1;34mhttps://www.instagram.com/ytgabrielkelzer\033[0m
-\033[1;32mYOUTUBE DO DONO DO SOFTWARE:\033[0m
+\033[1;32mTIKTOK PARA FICAR POR DENTRO DO SCRIPT:\033[0m
+     \033[1;34m@tiktok_bielkelzer\033[0m
+\033[1;32mYOUTUBE DO DESENVOLVEDOR:\033[0m
      \033[1;34mhttps://youtube.com/@gabrielkelzer\033[0m
 \033[03;90m"Às vezes criatividade é continuar criando coisas mesmo não sendo reconhecido", Gabriel Kelzer.\033[0m
      ''')
