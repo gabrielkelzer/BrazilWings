@@ -13,11 +13,15 @@ O único problema que os usuários devem tomar cuidado é que eles não podem in
 
 Também vale destacar que o script tá todo automatizado, Ou seja. Após o usuário instalar o Script vai dar um menu de configuração iniciais. Portanto basta digitar "python brazilwings.py" E SER FELIZ :D
 
-COMANDOS:
-
-* instalem o "git" no termux
-* instalem o "python" no termux
-* baixem pelo link: https://github.com/gabrielkelzer/brazilwings
+#### Installation and Using Lazymux
+```bash
+termux-setup-storage
+pkg install python
+pkg install git
+git clone https://github.com/gabrielkelzer/brazilwings
+cd brazilwings
+python brazilwings.py
+```
 
 Estes comandos podem se tornar obsolento com o tempo, portanto acesse:
 
