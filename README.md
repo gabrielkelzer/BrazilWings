@@ -13,13 +13,14 @@ O único problema que os usuários devem tomar cuidado é que eles não podem in
 
 Também vale destacar que o script tá todo automatizado, Ou seja. Após o usuário instalar o Script vai dar um menu de configuração iniciais. Portanto basta digitar "python brazilwings.py" E SER FELIZ :D
 
-#### Manual de Instalação
+#### Comandos de instalação
 ```bash
 termux-setup-storage
 pkg install python
 pkg install git
 git clone https://github.com/gabrielkelzer/brazilwings
 cd brazilwings
+chmod +x *
 python brazilwings.py
 ```
 
