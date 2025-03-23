@@ -13,7 +13,7 @@ O único problema que os usuários devem tomar cuidado é que eles não podem in
 
 Também vale destacar que o script tá todo automatizado, Ou seja. Após o usuário instalar o Script vai dar um menu de configuração iniciais. Portanto basta digitar "python brazilwings.py" E SER FELIZ :D
 
-#### Installation and Using Lazymux
+#### Manual de Instalação
 ```bash
 termux-setup-storage
 pkg install python
