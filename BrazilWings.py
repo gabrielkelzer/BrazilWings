@@ -9,11 +9,11 @@ iniciar_TentameAres = lambda: os.system('cd;cd Tentame_Ares;. ./TentameKelzer.sh
 iniciar_SYSTEMNERF = lambda: os.system('cd;cd SYSTEM_NERF;. ./systemnerf.sh;cd;cd GoldText')
 copiar_app_virusapk = lambda: os.system('cp -i Virus.apk /data/data/com.termux/files/home/storage/downloads')
 copiar_app_smsbomber = lambda: os.system('cp -i Smsbomber.apk /data/data/com.termux/files/home/storage/downloads')
-abrir_site_livro = lambda: os.system('termux-open-url https://www.dropbox.com/scl/fi/9hz49y04l7mhoo1q20k2a/MEULIVRO_COM_CAPA_NOVA.pdf?rlkey=cyho1p4ft00lotncv7xei32zw&dl=0')
+abrir_site_github = lambda: os.system('termux-open-url https://github.com/thearesboy')
 sleep = lambda: os.system('sleep 2')
 umarquivoemshell = lambda: os.system('. ./baixarresto.sh')
 verificarbugs = lambda: os.system('. ./verificarbugs.sh')
-link_manual = lambda: os.system('termux-open-url https://zonamestre.blogspot.com/2024/02/software-para-hacking-e-pentest-do.html')
+link_manual = lambda: os.system('termux-open-url https://github.com/thearesboy/GoldText')
 iniciar_Aresscan = lambda: os.system('cd;cd AresScan;python AresScan.py;cd;cd GoldText')
 slepizao = lambda: os.system('sleep 3') # Sleep serve pra pausar a tela pro usuário por algum tempo
 
@@ -22,7 +22,7 @@ slepizao = lambda: os.system('sleep 3') # Sleep serve pra pausar a tela pro usu�
 
 
 
-def menu_da_brazil_wings(): # essa função é do menu
+def menu_da_gold_text(): # essa função é do menu
      print ('''
 \033[1;36ml=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=l\033[0m
 \033[1;36ml\033[0m\033[1;33m 🜲           SOFTWARE EM MODO TEXTO            🜲 \033[0m\033[1;36ml\033[0m\033[1;36m
@@ -43,7 +43,7 @@ l\033[0m\033[1;31m ♱                                             ♱ \033[0m\0
 \033[1;36ml\033[0m⠀⠀⠀⠀⠀⠀             ⢹⣿⠿⣿⡿⢿⣿⠿⣿⡇⠀   ⠀⠀⠀     ⠀     ⠀⠀\033[1;36ml\033[0m⠀⠀⠀
 \033[1;36ml\033[0m⠀⠀⠀               ⠀⠸⡇⢀⣿⡇⢸⣿⡀⢸⠇⠀       ⠀⠀         ⠀\033[1;36ml\033[0m⠀⠀⠀⠀⠀⠀
 \033[1;36ml\033[0m⠀⠀⠀⠀⠀⠀            ⠀⠀⠀⠈⠉⠁⠈⠉⠁⠀⠀⠀⠀                  \033[1;36ml\033[0m⠀⠀⠀⠀⠀⠀⠀⠀
-\033[1;36ml\033[0m                \033[1;36mBRAZILWINGS VIP v3       \033[0m       \033[1;36m l\033[0m
+\033[1;36ml\033[0m                \033[1;36mGold Text VIP V1        \033[0m       \033[1;36m l\033[0m
 \033[1;36ml\033[0m      \033[1;31m   /-----------------------------\   \033[0m     \033[1;36m l\033[0m
 \033[1;36ml\033[0m         \033[1;31ml\033[0m \033[1;36m[\033[0m1\033[1;36m] PortScan           \033[0m     \033[1;31ml\033[0m         \033[1;36ml\033[0m
 \033[1;36ml\033[0m         \033[1;31ml\033[0m                             \033[1;31ml\033[0m        \033[1;36m l\033[0m
@@ -66,7 +66,7 @@ l\033[0m\033[1;31m ♱                                             ♱ \033[0m\0
 \033[1;36ml\033[0m         \033[1;31ml\033[0m                             \033[1;31ml\033[0m        \033[1;36m l\033[0m
 \033[1;36ml\033[0m         \033[1;31ml\033[0m \033[1;36m[\033[0m8\033[1;36m] Baixar o novo ngrok    \033[0m \033[1;31ml\033[0m        \033[1;36m l\033[0m
 \033[1;36ml\033[0m         \033[1;31ml\033[0m                             \033[1;31ml\033[0m        \033[1;36m l\033[0m
-\033[1;36ml\033[0m         \033[1;31ml\033[0m \033[1;36m[\033[0m9\033[1;36m] Baixar o livro do   \033[0m    \033[1;31ml\033[0m        \033[1;36m l\033[0m
+\033[1;36ml\033[0m         \033[1;31ml\033[0m \033[1;36m[\033[0m9\033[1;36m] Abrir o Git Hub do \033[0m    \033[1;31ml\033[0m        \033[1;36m l\033[0m
 \033[1;36ml\033[0m         \033[1;31ml\033[0m    \033[1;36m Desenvolvedor    \033[0m       \033[1;31ml\033[0m        \033[1;36m l\033[0m
 \033[1;36ml\033[0m         \033[1;31ml\033[0m                             \033[1;31ml\033[0m        \033[1;36m l\033[0m
 \033[1;36ml\033[0m         \033[1;31ml\033[0m \033[1;36m[\033[0m10\033[1;36m] Backdoor em .APK \033[0m      \033[1;31ml\033[0m        \033[1;36m l\033[0m
@@ -77,7 +77,7 @@ l\033[0m\033[1;31m ♱                                             ♱ \033[0m\0
 \033[1;36ml\033[0m         \033[1;31ml\033[0m                             \033[1;31ml\033[0m       \033[1;36m  l\033[0m
 \033[1;36ml\033[0m       \033[1;31m  \-----------------------------/  \033[0m      \033[1;36m l\033[0m
 \033[1;36ml\033[0m      \033[1;33m    FERRAMENTA DE CIBERSEGURANÇA \033[0m         \033[1;36m l\033[0m
-\033[1;36ml\033[0m\033[1;31m ♱ \033[0m     \033[1;35m      @tiktok_bielkelzer   \033[0m  \033[1;31m          ♱ \033[0m\033[1;36ml\033[0m
+\033[1;36ml\033[0m\033[1;31m ♱ \033[0m     \033[1;35m             @thearesboy   \033[0m  \033[1;31m          ♱ \033[0m\033[1;36ml\033[0m
 \033[1;36m---------------------------------------------------\033[0m      
      ''') 
      
@@ -128,7 +128,7 @@ while MENU_CONFG != "1":
      
      # condicional encadeado do menu de configurações iniciais
      if MENU_CONFG == "1":
-          print('''\033[1;33mVOCÊ SABIA ? \033[0m\033[90mO desenvolvedor do Software tem um curso no YouTube chamado "Hacker de Bolso".\033[0m''')                          
+          print('''\033[1;33mVOCÊ SABIA ? \033[0m\033[90mO desenvolvedor do Software abandonou a área de Programação e Hacking".\033[0m''')                          
           slepizao()
      elif MENU_CONFG == "2":
           umarquivoemshell()
@@ -153,14 +153,14 @@ while MENU_CONFG != "1":
 
 while MENU_BW != "12":
      clear()
-     menu_da_brazil_wings()    
+     menu_da_gold_text()    
      MENU_BW = input('''\033[1;35mDIGITE UM NÚMERO: \033[0m''')
      clear()
 
 
      match MENU_BW:  
           case "1":
-               iniciar_kelzerscan() #chama os shells pra iniciar minha script de PortScan
+               iniciar_aresscan() #chama os shells pra iniciar minha script de PortScan
           case "2":
                print ('''
  \033[1;33m Centro-Oeste:\033[0m\033[1;34m
@@ -202,7 +202,7 @@ while MENU_BW != "12":
                ''')
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
           case "3":
-               iniciar_TentameKelzer()
+               iniciar_TentameAres()
           case "4":
                iniciar_SYSTEMNERF()
           case "5":
@@ -262,13 +262,13 @@ bash install.sh \033[0m
 \033[1;31mOBS2: \033[0m\033[1;32mEm seguida é necessário você colocar o protocolo de internet e a porta (exemplo: ./ngrok http 8080)
 \033[1;31mOBS3: \033[0m\033[1;32m E por fim, caso queira usar a opção de criar backdoor aperte enter (nesta aba): \033[0m
 \033[1;36m
-# E depois do enter escolha a opção 10 da brazilwings !!!
+# E depois do enter escolha a opção 10 da goldtext !!!
                \033[0m  ''')
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
           case "9":
-               abrir_site_livro()
+               abrir_site_github()
           case "10":
-               iniciar_kelzerx()
+               iniciar_aresx()
           case "11":
                print('''
 \033[1;36mHISTÓRIA DO SCRIPT:\033[0m\033[1;34m
@@ -303,5 +303,6 @@ Ass: \033[0m\033[1;34mGabriel Kelzer\033[0m
                print ('''\033[31mO número que você digitou é inválido !!!\033[0m 
                       ''') #Essa opção é somente se as anteriores não foram atendidas
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
+
 
 
