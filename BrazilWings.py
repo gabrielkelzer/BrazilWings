@@ -5,7 +5,7 @@ clear = lambda: os.system('clear') #clear serve pra limpar a tela
 #Aqui eu coloco as funções
 iniciar_aresx = lambda: os.system('cd;cd ARESX;bash sploit.sh;cd;cd GoldText')
 iniciar_helewings = lambda: os.system('cd;cd HeleWings;. ./HeleWings.sh;cd;cd GoldText')
-iniciar_TentameAres = lambda: os.system('cd;cd Tentame_Ares;. ./TentameKelzer.sh;cd;cd GoldText')
+iniciar_TentameAres = lambda: os.system('cd;cd Tentame_Ares;. ./TentameAres.sh;cd;cd GoldText')
 iniciar_SYSTEMNERF = lambda: os.system('cd;cd SYSTEM_NERF;. ./systemnerf.sh;cd;cd GoldText')
 copiar_app_virusapk = lambda: os.system('cp -i Virus.apk /data/data/com.termux/files/home/storage/downloads')
 copiar_app_smsbomber = lambda: os.system('cp -i Smsbomber.apk /data/data/com.termux/files/home/storage/downloads')
@@ -299,6 +299,7 @@ Ass: \033[0m\033[1;34mThe Ares Boy \033[0m
                print ('''\033[31mO número que você digitou é inválido !!!\033[0m 
                       ''') #Essa opção é somente se as anteriores não foram atendidas
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
+
 
 
 
