@@ -273,7 +273,7 @@ bash install.sh \033[0m
                print('''
 \033[1;36mHISTÓRIA DO SCRIPT:\033[0m\033[1;34m
 
-O projeto \033[0m\033[1;31mBrazilWings\033[0m\033[1;34m é um Software de cibersegurança Privado do Gabriel Kelzer. Cujo ano de lançamento foi em 2023.  
+O projeto \033[0m\033[1;31mGold Text\033[0m\033[1;34m é um Software de cibersegurança Privado do TheAresBoy. Cujo ano de lançamento foi em 2025.  
 
 Em 2025 ele tornou o Software público para download, porém com o pedido de usarem o software para o bem (caso contrário o Software será excluído para sempre da internet).
 
@@ -285,7 +285,7 @@ O único problema que os usuários devem tomar cuidado é que eles não podem in
 
 Também vale destacar que o script tá todo automatizado, Ou seja. Após o usuário instalar o Script vai dar um menu de configuração iniciais. Portanto basta digitar "python brazilwings.py" E SER FELIZ :D 
 \033[0m\033[1;31m
-Ass: \033[0m\033[1;34mGabriel Kelzer\033[0m
+Ass: \033[0m\033[1;34mThe Ares Boy \033[0m
 ''')
                OP_PAUSAR = input('\033[1;33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
           case "12":
@@ -299,6 +299,7 @@ Ass: \033[0m\033[1;34mGabriel Kelzer\033[0m
                print ('''\033[31mO número que você digitou é inválido !!!\033[0m 
                       ''') #Essa opção é somente se as anteriores não foram atendidas
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
+
 
 
 
