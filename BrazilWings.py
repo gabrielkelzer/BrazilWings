@@ -5,7 +5,7 @@ clear = lambda: os.system('clear') #clear serve pra limpar a tela
 #Aqui eu coloco as funções
 iniciar_aresx = lambda: os.system('cd;cd ARESX;bash sploit.sh;cd;cd GoldText')
 iniciar_helewings = lambda: os.system('cd;cd HeleWings;. ./HeleWings.sh;cd;cd GoldText')
-iniciar_TentameKelzer = lambda: os.system('cd;cd Tentame_Ares;. ./TentameKelzer.sh;cd;cd GoldText')
+iniciar_TentameAres = lambda: os.system('cd;cd Tentame_Ares;. ./TentameKelzer.sh;cd;cd GoldText')
 iniciar_SYSTEMNERF = lambda: os.system('cd;cd SYSTEM_NERF;. ./systemnerf.sh;cd;cd GoldText')
 copiar_app_virusapk = lambda: os.system('cp -i Virus.apk /data/data/com.termux/files/home/storage/downloads')
 copiar_app_smsbomber = lambda: os.system('cp -i Smsbomber.apk /data/data/com.termux/files/home/storage/downloads')
@@ -14,7 +14,7 @@ sleep = lambda: os.system('sleep 2')
 umarquivoemshell = lambda: os.system('. ./baixarresto.sh')
 verificarbugs = lambda: os.system('. ./verificarbugs.sh')
 link_manual = lambda: os.system('termux-open-url https://zonamestre.blogspot.com/2024/02/software-para-hacking-e-pentest-do.html')
-iniciar_kelzerscan = lambda: os.system('cd;cd AresScan;python AresScan.py;cd;cd GoldText')
+iniciar_Aresscan = lambda: os.system('cd;cd AresScan;python AresScan.py;cd;cd GoldText')
 slepizao = lambda: os.system('sleep 3') # Sleep serve pra pausar a tela pro usuário por algum tempo
 
 
@@ -303,4 +303,5 @@ Ass: \033[0m\033[1;34mGabriel Kelzer\033[0m
                print ('''\033[31mO número que você digitou é inválido !!!\033[0m 
                       ''') #Essa opção é somente se as anteriores não foram atendidas
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
+
 
