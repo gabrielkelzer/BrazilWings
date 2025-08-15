@@ -14,7 +14,7 @@ sleep = lambda: os.system('sleep 2')
 umarquivoemshell = lambda: os.system('. ./baixarresto.sh')
 verificarbugs = lambda: os.system('. ./verificarbugs.sh')
 link_manual = lambda: os.system('termux-open-url https://github.com/thearesboy/GoldText')
-iniciar_Aresscan = lambda: os.system('cd;cd AresScan;python AresScan.py;cd;cd GoldText')
+iniciar_aresscan = lambda: os.system('cd;cd AresScan;python AresScan.py;cd;cd GoldText')
 slepizao = lambda: os.system('sleep 3') # Sleep serve pra pausar a tela pro usuário por algum tempo
 
 
@@ -303,6 +303,7 @@ Ass: \033[0m\033[1;34mGabriel Kelzer\033[0m
                print ('''\033[31mO número que você digitou é inválido !!!\033[0m 
                       ''') #Essa opção é somente se as anteriores não foram atendidas
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
+
 
 
 
