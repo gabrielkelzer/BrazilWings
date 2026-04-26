@@ -26,6 +26,6 @@ python brazilwings.py
 
 Estes comandos podem se tornar obsolento com o tempo, portanto acesse:
 
-https://zonamestre.blogspot.com 
+https://arquivodocurioso.blogspot.com 
 
 Ass: Desenvolvedor do Software.
