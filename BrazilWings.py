@@ -22,7 +22,7 @@ slepizao = lambda: os.system('sleep 3') # Sleep serve pra pausar a tela pro usu�
 
 
 
-def menu_da_gold_text(): # essa função é do menu
+def menu_da_brazil_wings(): # essa função é do menu
      print ('''
 \033[1;36ml=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=l\033[0m
 \033[1;36ml\033[0m\033[1;33m 🜲           SOFTWARE EM MODO TEXTO            🜲 \033[0m\033[1;36ml\033[0m\033[1;36m
@@ -153,14 +153,14 @@ while MENU_CONFG != "1":
 
 while MENU_BW != "12":
      clear()
-     menu_da_gold_text()    
+     menu_da_brazil_wings()    
      MENU_BW = input('''\033[1;35mDIGITE UM NÚMERO: \033[0m''')
      clear()
 
 
      match MENU_BW:  
           case "1":
-               iniciar_aresscan() #chama os shells pra iniciar minha script de PortScan
+               iniciar_kelzerscan() #chama os shells pra iniciar minha script de PortScan
           case "2":
                print ('''
  \033[1;33m Centro-Oeste:\033[0m\033[1;34m
@@ -202,7 +202,7 @@ while MENU_BW != "12":
                ''')
                OP_PAUSAR = input('\033[33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
           case "3":
-               iniciar_TentameAres()
+               iniciar_TentameKelzer()
           case "4":
                iniciar_SYSTEMNERF()
           case "5":
@@ -268,12 +268,12 @@ bash install.sh \033[0m
           case "9":
                abrir_site_github()
           case "10":
-               iniciar_aresx()
+               iniciar_kelzerx()
           case "11":
                print('''
 \033[1;36mHISTÓRIA DO SCRIPT:\033[0m\033[1;34m
 
-O projeto \033[0m\033[1;31mGold Text\033[0m\033[1;34m é um Software de cibersegurança Privado do TheAresBoy. Cujo ano de lançamento foi em 2025.  
+O projeto \033[0m\033[1;31mBrazil Wings\033[0m\033[1;34m é um Software de cibersegurança Privado do gabriel kelzer. Cujo ano de lançamento foi em 2025.  
 
 Em 2025 ele tornou o Software público para download, porém com o pedido de usarem o software para o bem (caso contrário o Software será excluído para sempre da internet).
 
@@ -285,14 +285,14 @@ O único problema que os usuários devem tomar cuidado é que eles não podem in
 
 Também vale destacar que o script tá todo automatizado, Ou seja. Após o usuário instalar o Script vai dar um menu de configuração iniciais. Portanto basta digitar "python brazilwings.py" E SER FELIZ :D 
 \033[0m\033[1;31m
-Ass: \033[0m\033[1;34mThe Ares Boy \033[0m
+Ass: \033[0m\033[1;34mYoutuber : @kelzerdev \033[0m
 ''')
                OP_PAUSAR = input('\033[1;33mAPERTE ENTER PARA VOLTAR AO MENU ANTERIOR:\033[0m')
           case "12":
                
                print('''
 \033[1;32mDESENVOLVEDOR:\033[0m
-     \033[1;34mTheAresBoy.\033[0m
+     \033[1;34mGabriel Kelzer.\033[0m
 \033[03;90m"Às vezes criatividade é continuar criando coisas mesmo não sendo reconhecido", Gabriel Kelzer.\033[0m
      ''')
           case _:
