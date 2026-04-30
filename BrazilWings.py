@@ -3,7 +3,7 @@ clear = lambda: os.system('clear') #clear serve pra limpar a tela
 
 
 #Aqui eu coloco as funções
-iniciar_aresx = lambda: os.system('cd;cd ARESX;bash sploit.sh;cd;cd GoldText')
+iniciar_brazilwings = lambda: os.system('cd;cd ARESX;bash sploit.sh;cd;cd GoldText')
 iniciar_helewings = lambda: os.system('cd;cd HeleWings;. ./HeleWings.sh;cd;cd GoldText')
 iniciar_TentameAres = lambda: os.system('cd;cd Tentame_Ares;. ./TentameAres.sh;cd;cd GoldText')
 iniciar_SYSTEMNERF = lambda: os.system('cd;cd SYSTEM_NERF;. ./systemnerf.sh;cd;cd GoldText')
