@@ -4,17 +4,17 @@ clear = lambda: os.system('clear') #clear serve pra limpar a tela
 
 #Aqui eu coloco as funções
 iniciar_kelzerx = lambda: os.system('cd;cd KELZERX;bash sploit.sh;cd;cd BrazilWings')
-iniciar_helewings = lambda: os.system('cd;cd HeleWings;. ./HeleWings.sh;cd;cd GoldText')
-iniciar_TentameAres = lambda: os.system('cd;cd Tentame_Ares;. ./TentameAres.sh;cd;cd GoldText')
-iniciar_SYSTEMNERF = lambda: os.system('cd;cd SYSTEM_NERF;. ./systemnerf.sh;cd;cd GoldText')
+iniciar_helewings = lambda: os.system('cd;cd HeleWings;. ./HeleWings.sh;cd;cd BrazilWings')
+iniciar_TentameKelzer = lambda: os.system('cd;cd Tentame_Kelzer;. ./TentameKelzer.sh;cd;cd BrazilWings')
+iniciar_SYSTEMNERF = lambda: os.system('cd;cd SYSTEM_NERF;. ./systemnerf.sh;cd;cd BrazilWings')
 copiar_app_virusapk = lambda: os.system('cp -i Virus.apk /data/data/com.termux/files/home/storage/downloads')
 copiar_app_smsbomber = lambda: os.system('cp -i Smsbomber.apk /data/data/com.termux/files/home/storage/downloads')
-abrir_site_github = lambda: os.system('termux-open-url https://github.com/thearesboy')
+abrir_site_github = lambda: os.system('termux-open-url https://github.com/gabrielkelzer')
 sleep = lambda: os.system('sleep 2')
 umarquivoemshell = lambda: os.system('. ./baixarresto.sh')
 verificarbugs = lambda: os.system('. ./verificarbugs.sh')
-link_manual = lambda: os.system('termux-open-url https://github.com/thearesboy/GoldText')
-iniciar_aresscan = lambda: os.system('cd;cd AresScan;python AresScan.py;cd;cd GoldText')
+link_manual = lambda: os.system('termux-open-url https://github.com/gabrielkelzer/BrazilWings')
+iniciar_kelzerscan = lambda: os.system('cd;cd KelzerScan;python KelzerScan.py;cd;cd BrazilWings')
 slepizao = lambda: os.system('sleep 3') # Sleep serve pra pausar a tela pro usuário por algum tempo
 
 
